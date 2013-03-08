@@ -26,22 +26,15 @@ registrationID.
 
 
 <h2>How Does it work</h2>
-
 When you will run the program the following operations occur.
-<pre>   
-  Android (gcmTester)           PHP (GCMPushMessage.php)                     GCM Servers
-     |                                |                                            |
-     |                                |          Get Device RegistrationID         |
-     |--------------------------------|------------------------------------------->|
-     |                                |                                            |
-     |  Send RegistrationID to server |                                            |
-     |------------------------------->|                                            |
-     |                                |   Send Notification to this registrationID |
-     |                                |------------------------------------------->|
-     |                                |                                            |
-     |                                |   Send Notification To Device with RegID   |
-     |<-------------------------------|--------------------------------------------|
-     |                                |                                            |
-     |                                |                                            |
-     |                                |                                            |
-</pre>
+> ##  Operations
+>     Android (gcmTester)           PHP(GCMPushMessage.php)                     GCM Servers
+>     |                                |          Get Device RegistrationID         |
+>     |--------------------------------|------------------------------------------->|
+>     |  Send RegistrationID to server |                                            |
+>     |------------------------------->|                                            |
+>     |                                |   Send Notification to this registrationID |
+>     |                                |------------------------------------------->|
+>     |                                |   Send Notification To Device with RegID   |
+>     |<-------------------------------|--------------------------------------------|
+>     |                                |                                            |
