@@ -38,3 +38,7 @@ When you will run the program the following operations occur.
 >     |                                |   Send Notification To Device with RegID   |
 >     |<-------------------------------|--------------------------------------------|
 >     |                                |                                            |
+
+**Note :** The author of GCMPushMessage.php is Matt Grundy. I've slightly modified it to handle trouble situations also as
+mentioned in the developer docs.
+
